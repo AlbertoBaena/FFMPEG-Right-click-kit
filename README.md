@@ -2,6 +2,15 @@
 
 Windows batch script that installs FFmpeg via Chocolatey and adds right-click context menu options to convert between WAV, OGG, and MP3 audio formats.
 
+## Downloads
+
+Download the script directly:
+
+- [**English**](https://github.com/AlbertoBaena/FFMPEG-Right-click-kit/releases/latest/download/FFMPEG_RightClickKit_Win_ENG.zip) (`FFMPEG_RightClickKit_Win_ENG.zip`)
+- [**Español**](https://github.com/AlbertoBaena/FFMPEG-Right-click-kit/releases/latest/download/FFMPEG_RightClickKit_Win_ESP.zip) (`FFMPEG_RightClickKit_Win_ESP.zip`)
+
+Choose the language that best suits your needs.
+
 ## Features
 
 - Automatically installs Chocolatey package manager if not present
@@ -28,4 +37,3 @@ After installation, you can also use FFmpeg from the command line:
 
 ```cmd
 ffmpeg -i input.wav output.mp3
-```
