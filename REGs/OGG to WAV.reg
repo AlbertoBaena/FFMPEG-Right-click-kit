@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\Convert to WAV]
+@="Convert to WAV"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\Convert to WAV\command]
+@="cmd.exe /c for %%I in (\"%1\") do ffmpeg -i \"%%~I\" -y \"%%~dpnI.wav\""

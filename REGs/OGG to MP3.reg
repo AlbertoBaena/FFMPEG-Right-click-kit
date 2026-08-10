@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\Convert to MP3]
+@="Convert to MP3 (320 kbps)"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\Convert to MP3\command]
+@="cmd.exe /c for %%I in (\"%1\") do ffmpeg -i \"%%~I\" -b:a 320k -y \"%%~dpnI.mp3\""
